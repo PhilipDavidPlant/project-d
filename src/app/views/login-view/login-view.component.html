@@ -1,0 +1,34 @@
+<table class="logo-and-heading">
+    <tr>
+    <td style="width:20%" align="right"><img class="logo" src="../../../assets/images/beer-mug.svg" height="200" width="200"></td>
+    <td style="width:30%" align="left"><h1 class="big-heading">Where Beer</h1></td>
+    <div class="divider-line"></div>
+    <td style="width:50%">
+
+        <div class="login-form">
+            <h1 class="medium-heading">Login</h1>
+            <form>
+                <table class="login-form-container" cellspacing="0">
+                    <tr>
+                        <td>
+                            <md-input-container class="full-width">
+                                <input (ngModel)="clientEmail" mdInput placeholder="Username">
+                            </md-input-container>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <md-input-container class="full-width">
+                                <input (ngModel)="clientPassword" type="password" mdInput placeholder="Password">
+                            </md-input-container>
+                        </td>
+                    </tr>
+                    <tr><button md-button (click)="login()">Submit</button></tr>
+                    <tr><button md-button (click)="onClick()" >Sign up!</button></tr>
+                </table>
+            </form>
+        </div>
+
+    </td>
+    </tr>
+<table>

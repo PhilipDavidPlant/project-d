@@ -1,0 +1,41 @@
+.logo-and-heading{
+    width:100%;
+    height:calc(100% - 64px);
+    position: absolute;
+}
+
+.logo{
+    position:relative;
+    float:right;
+    margin-right: -30px;
+}
+
+.big-heading{
+    text-align: left;
+    font-size: 130px;
+    color: 	#4a4040;
+    padding: 20px 90px 20px 60px;
+}
+
+.medium-heading{
+    color:rgb(130,130,130);
+}
+
+.login-form{
+    padding: 20px 200px 20px 200px;
+}
+
+.login-form-container{
+    width: 400px;
+}
+
+.full-width{
+    width:100%;
+}
+
+.divider-line{
+    width:1px;
+    background:rgb(225,225,225);
+    height:400px;
+    margin-top: 150px;
+}
