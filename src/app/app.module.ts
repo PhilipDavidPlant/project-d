@@ -13,6 +13,8 @@ import { AngularFireModule } from 'angularfire2';
 
 import { MaterialModule } from '@angular/material';
 
+import 'hammerjs';
+
 //Views
 import { LoginViewComponent } from './views/login-view/login-view.component';
 import { SettingsViewComponent } from './views/settings-view/settings-view.component';

@@ -23,4 +23,4 @@ export class LoginViewComponent implements OnInit {
   ngOnInit() {
   }
 
-Uymk}
+}
